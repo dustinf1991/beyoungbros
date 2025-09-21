@@ -44,3 +44,14 @@
     height: auto;
     border-radius: 8px;
 }
+.galleryimage {
+    text-align: center;      /* centers the image */
+    margin: 20px 0;         /* space above and below */
+}
+
+.galleryimage img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
