@@ -1,3 +1,6 @@
+/* CSS Document for BeYoungBro's*/
+
+/* Container */
 .container {
     width: 960px;
     height: auto;
@@ -5,15 +8,25 @@
     margin-right: auto;
     background-color: lightskyblue;
 }
+
+/* Navbar (top) */
+.navbar ul{
+    list-style: none;        /* remove bullets */
+    background-color: lightslategray;
+    text-align: center;     /* centers inline-block items below */
+}
+.navbar li{
+    display: inline-block;   /* horizontal listing */
+}
+
+/* Header (second) */
 .header {
     background-color: lightsalmon;
     text-align: center;
     font-family: cursive;
 }
-.navbar ul{
-    background-color: lightslategray;
-    text-align: center;
-}
+
+/* Image (third) */
 .homeimage {
     display: block;
     margin-left: auto;
