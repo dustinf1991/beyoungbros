@@ -1,28 +1,42 @@
 <!-- Test Area -->
  <!-- Sep 14 - testing index.html page -->
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <title>Test of Index.html</title>
-  </head>
-  <body>
-    <h1>BeYoungBro's</h1>
-    <p>Welcome to <b><u>BeYoungBro&apos;s!</u></b> This site is currently under construction
-    The main focus of this page will be to display past classes projects and as a signup portal
-    for new classes! Please check back soon for updates!
-    </p>
-    <img src="images/artclub.JPG" alt="Art Club" width="600">
-
-
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="registration.html">Sign Up</a></li>
-        <li><a href="about.html">About Us</a></li>
-      </ul> 
-    </nav>
-
-  </body>
+ <html>
+<head>
+<style>
+div {
+width: 600px;
+border: lightgray solid 1px;
+}
+p {
+width: 400px;
+height: 200px;
+border: green solid 3px;
+margin-left: 3em;
+padding: 1.5em;
+background-color: yellow;
+}
+span {
+position: relative;
+top: 1em;
+border: blue solid 1px;
+}
+#absolute {
+width: 200px;
+position: absolute;
+top: 200px;
+left: 200px;
+border: red solid 1px;
+}
+</style>
+</head>
+<body>
+<div>
+<p>Here we have some <span>sample text
+</span>.</p>
+</div>
+<div id=“absolute”>
+A bit of text in this one, too.
+</div>
+</body>
 </html>
