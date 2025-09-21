@@ -34,7 +34,13 @@
 
 /* Image (third) */
 .homeimage {
+    text-align: center;      /* centers the image */
+    margin: 20px 0;         /* space above and below */
+}
+
+.homeimage img {
     display: inline-block;
     max-width: 100%;
     height: auto;
+    border-radius: 8px;
 }
