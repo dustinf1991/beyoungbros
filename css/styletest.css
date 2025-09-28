@@ -144,8 +144,8 @@ header .main-nav li a, header .right-nav li a {
   max-width: 470px;
   color: #FFFFFF;
   text-align: left;
-  margin-left: 30px;
-
+  margin-left: 15px;
+  margin-top: 40px;
 }
 
 .hero-text .hero-title {
@@ -155,6 +155,7 @@ header .main-nav li a, header .right-nav li a {
   font-weight: normal;
   color: #FFFFFF;
   line-height: 1;
+  margin-top: 40px;
 }
 
 .hero-about {
@@ -163,8 +164,7 @@ header .main-nav li a, header .right-nav li a {
   background-image: url('../img/aboutus.JPG');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  margin-top: 40px;
+  background-repeat: no-repeat;;
 } 
 
 /* Beginning of Gallery Section styles */
