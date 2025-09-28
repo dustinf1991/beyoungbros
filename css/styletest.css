@@ -145,6 +145,7 @@ header .main-nav li a, header .right-nav li a {
 .hero-text {
   max-width: 470px;
   color: #FFFFFF;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
   text-align: left;
   margin-left: 0;
   margin-top: 10px;
@@ -166,7 +167,7 @@ header .main-nav li a, header .right-nav li a {
 }
 
 .hero-home {
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/collagebanner.PNG');
+  background-image: url('../img/collagebanner.PNG');
 }
 .hero-about {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/aboutus.JPG');
