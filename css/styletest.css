@@ -132,11 +132,7 @@ header .main-nav li a, header .right-nav li a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 0; /* was 70px before; set to 0 now */
-}
-.container {
-  max-width: 940px;
-  margin: 0 auto;
+  padding-top: 0; 
 }
 .hero .container {
   display: flex;
@@ -144,6 +140,7 @@ header .main-nav li a, header .right-nav li a {
   min-height: calc(100vh - 70px); /* to offset header */
   max-width: 940px;
   margin: 0 auto;
+  align-items: center;
 }
 
 .hero-text {
@@ -183,8 +180,6 @@ header .main-nav li a, header .right-nav li a {
   line-height: 1;
   margin-top: 40px;
 }
-
-
 
 .hero-home .hero-title {
   color: black;
