@@ -113,8 +113,8 @@ header .main-nav li a, header .right-nav li a {
   color: gold;
   text-decoration: none;
   font-family: 'built_titling', Helvetica, sans-serif;
-  font-weight: 200;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 28px;
   letter-spacing: 4px;
   padding: 0 15px;
 }
