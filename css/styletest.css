@@ -87,8 +87,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 #hero {
-  width: 600px;
-  height: 800px;
+  width: 800px;
+  height: 600px;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 100%), 
     url('../img/greenbanner.PNG');
   background-size: cover;
