@@ -149,8 +149,8 @@ header .main-nav li a, header .right-nav li a {
   margin-top: 10px;
     /* Add relative positioning for fine control */
   position: relative;
-  left: -40px;  /* negative = move left */
-  top: -30px;   /* negative = move up */
+  left: -80px;  /* negative = move left */
+  top: -10px;   /* negative = move up */
 }
 
 .hero-text .hero-title {
