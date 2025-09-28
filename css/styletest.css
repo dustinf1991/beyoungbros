@@ -142,7 +142,10 @@ header .main-nav li a, header .right-nav li a {
 
 .hero-text {
   max-width: 470px;
-  color: #FFFFFF
+  color: #FFFFFF;
+  text-align: left;
+  margin-left: 30px;
+
 }
 
 .hero-text .hero-title {
@@ -161,6 +164,7 @@ header .main-nav li a, header .right-nav li a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 40px;
 } 
 
 /* Beginning of Gallery Section styles */
