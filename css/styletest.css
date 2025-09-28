@@ -144,11 +144,16 @@ header .main-nav li a, header .right-nav li a {
 }
 
 .hero-text {
-  max-width: 470px;
   color: black;
 }
 .hero-text .hero-title {
   color: black;
+  font-family: 'built_titling', Helvetica, sans-serif;
+  font-size: 120px;
+  margin: 20px 0px;
+  font-weight: normal;
+  line-height: 1;
+  margin-top: 40px;
 }
 
 .hero-home .hero-text {
@@ -159,6 +164,7 @@ header .main-nav li a, header .right-nav li a {
   text-align: left;
   margin-left: 0;
   margin-top: 10px;
+  max-width: 470px;
 }
 
 .hero-about .hero-text {
@@ -169,20 +175,17 @@ header .main-nav li a, header .right-nav li a {
   text-align: left;
   margin-left: 0;
   margin-top: 10px;
-  color: white
-}
-
-.hero-text .hero-title {
-  font-family: 'built_titling', Helvetica, sans-serif;
-  font-size: 120px;
-  margin: 20px 0px;
-  font-weight: normal;
-  line-height: 1;
-  margin-top: 40px;
+  color: white;
+  max-width: 470px;
 }
 
 .hero-home .hero-title {
   color: black;
+  max-width: 470px;
+}
+
+.hero-about .hero-title {
+  max-width: 470px;
 }
 /*.hero-home {
   background-image: url('../img/collagebanner.PNG');
