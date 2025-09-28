@@ -193,10 +193,10 @@ header .main-nav li a, header .right-nav li a {
 
 /* Base banner style (applies to all pages) */
 .page-banner {
-  margin-top: 70px;           /* sits below nav bar */
+  margin-top: 0;
   width: 100%;
-  height: 800px;              /* fixed banner height */
-  background-size: cover;
+  height: 600px;              /* fixed banner height */
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url('../img/dyebanner.PNG'); /* default image */
