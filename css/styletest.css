@@ -90,7 +90,7 @@ body {
   width: 100%;
   height: 700px;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 100%), 
-    url('../img/ArtClubInfo.JPG');
+    url('../img/greenbanner.PNG');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
