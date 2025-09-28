@@ -153,27 +153,7 @@ header .main-nav li a, header .right-nav li a {
 }
 /* End of Gallery Section styles */
 
-/* Beginning of About-hero Section styles */
-#abouthero {
-  width: 100%;
-  min-height: 100vh; 
-  background-image: url('../img/aboutus.JPG');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.aboutcontainer {
-  max-width: 940px;
-  min-height: 100vh; 
-  margin: 0 auto;
-}
-#abouthero .aboutcontainer {
-  display: flex;
-  align-items: center;
-  height: 700px;
-}
    
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
