@@ -166,10 +166,10 @@ header .main-nav li a, header .right-nav li a {
 }
 
 .hero-home {
-  linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), background-image: url('../img/collagebanner.PNG');
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/collagebanner.PNG');
 }
 .hero-about {
-  linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), background-image: url('../img/aboutus.JPG');
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/aboutus.JPG');
 }
 /* Beginning of Gallery Section styles */
 .gallery {
