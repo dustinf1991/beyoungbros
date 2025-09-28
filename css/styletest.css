@@ -127,6 +127,7 @@ header .main-nav li a, header .right-nav li a {
   height: 700px;
   background-image: url('../img/collagebanner.PNG'), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   background-size: cover;
+  background-color: lightskyblue;
   background-position: center;
   background-repeat: no-repeat;
 }
