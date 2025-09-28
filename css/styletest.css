@@ -181,6 +181,7 @@ header .main-nav li a, header .right-nav li a {
   display:grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap:12px;
+  background-color: salmon
 }
 .gallery img{
   width:100%;
