@@ -116,8 +116,7 @@ header .main-nav li a, header .right-nav li a {
   font-size: 28px;
   letter-spacing: 4px;
   padding: 0 15px;
-  border: 2px solid black;   /*  border around text */
-  border-radius: 6px;
+
 }
 
 /* End of Header styles */
@@ -151,8 +150,8 @@ header .main-nav li a, header .right-nav li a {
   margin-top: 10px;
     /* Add relative positioning for fine control */
   position: relative;
-  left: -200px;  /* negative = move left */
-  top: -80px;   /* negative = move up */
+  left: -220px;  /* negative = move left */
+  top: -60px;   /* negative = move up */
 }
 
 .hero-text .hero-title {
