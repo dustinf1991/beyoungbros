@@ -195,8 +195,8 @@ header .main-nav li a, header .right-nav li a {
 .page-banner {
   margin-top: 0;
   width: 100%;
-  height: 600px;              /* fixed banner height */
-  background-size: contain;
+  height: 800px;              /* fixed banner height */
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url('../img/dyebanner.PNG'); /* default image */
