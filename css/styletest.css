@@ -186,6 +186,7 @@ header .main-nav li a, header .right-nav li a {
 
 .hero-about .hero-title {
   max-width: 470px;
+  color: white;
 }
 /*.hero-home {
   background-image: url('../img/collagebanner.PNG');
