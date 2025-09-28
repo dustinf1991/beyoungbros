@@ -125,7 +125,7 @@ header .main-nav li a, header .right-nav li a {
 #hero {
   width: 100%;
   height: 700px;
-  background-image: url('../img/collagebanner.PNG'), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  background-image: url('../img/dyebanner.PNG'), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
