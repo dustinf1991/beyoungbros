@@ -139,6 +139,22 @@ header .main-nav li a, header .right-nav li a {
   align-items: center;
   height: 700px;
 }
+
+.hero-text {
+  max-width: 470px;
+  color: #FFFFFF
+}
+
+.hero-text .hero-title {
+  font-family: 'built_titling', Helvetica, sans-serif;
+  font-size: 120px;
+  margin: 20px 0px;
+  font-weight: normal;
+  color: #FFFFFF;
+  line-height: 1;
+}
+
+}
 /* Beginning of Gallery Section styles */
 .galleryhero {
   display:grid;
