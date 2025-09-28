@@ -157,11 +157,12 @@ header .main-nav li a, header .right-nav li a {
   position: relative;
   left: -220px;  /* negative = move left */
   top: -60px;   /* negative = move up */
-  color: black
+  color: black;
   text-align: left;
   margin-left: 0;
   margin-top: 10px;
 }
+
 .hero-about .hero-text {
       /* Add relative positioning for fine control */
   position: relative;
