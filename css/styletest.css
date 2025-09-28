@@ -201,7 +201,15 @@ header .main-nav li a, header .right-nav li a {
   background-repeat: no-repeat;
   background-image: url('../img/dyebanner.PNG'); /* default image */
 }
+.calendar {
+  margin-top: 0px;   /* space between banner and calendar */
+  display: flex;
+  justify-content: center; /* center the iframe */
+}
 
+.calendar iframe {
+  border-radius: 8px;   /* rounded edges */
+}
    
 /* ==========================================================================
    Helper classes
