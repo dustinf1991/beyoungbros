@@ -170,6 +170,13 @@ header .main-nav li a, header .right-nav li a {
   margin-top: 40px;
 }
 
+.hero-home .hero-text {
+  color: black
+}
+
+.hero-home .hero-title {
+  color: black;
+}
 /*.hero-home {
   background-image: url('../img/collagebanner.PNG');
 } */
