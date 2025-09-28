@@ -191,6 +191,17 @@ header .main-nav li a, header .right-nav li a {
 }
 /* End of Gallery Section styles */
 
+/* Base banner style (applies to all pages) */
+.page-banner {
+  margin-top: 70px;           /* sits below nav bar */
+  width: 100%;
+  height: 600px;              /* fixed banner height */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../img/dyebanner.PNG'); /* default image */
+}
+
    
 /* ==========================================================================
    Helper classes
