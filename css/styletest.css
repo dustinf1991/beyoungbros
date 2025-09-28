@@ -170,9 +170,9 @@ header .main-nav li a, header .right-nav li a {
   margin-top: 40px;
 }
 
-.hero-home {
+/*.hero-home {
   background-image: url('../img/collagebanner.PNG');
-}
+} */
 .hero-about {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/aboutus.JPG');
 }
