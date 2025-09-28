@@ -157,6 +157,7 @@ header .main-nav li a, header .right-nav li a {
 .hero-text .hero-title {
   font-family: 'built_titling', Helvetica, sans-serif;
   font-size: 120px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
   margin: 20px 0px;
   font-weight: normal;
   color: #FFFFFF;
@@ -165,10 +166,10 @@ header .main-nav li a, header .right-nav li a {
 }
 
 .hero-home {
-  background-image: url('../img/collagebanner.PNG');
+  linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), background-image: url('../img/collagebanner.PNG');
 }
 .hero-about {
-  background-image: url('../img/aboutus.JPG');
+  linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), background-image: url('../img/aboutus.JPG');
 }
 /* Beginning of Gallery Section styles */
 .gallery {
