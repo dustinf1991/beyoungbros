@@ -121,7 +121,7 @@ header .main-nav li a, header .right-nav li a {
 /* End of Header styles */
 
 /* Beginning of Hero Section styles */
-#hero {
+.hero {
   width: 100%;
   min-height: 100vh; 
   background-image: url('../img/collagebanner.PNG');
@@ -134,7 +134,7 @@ header .main-nav li a, header .right-nav li a {
   min-height: 100vh; 
   margin: 0 auto;
 }
-#hero .container {
+.hero .container {
   display: flex;
   align-items: center;
   height: 700px;
@@ -154,7 +154,15 @@ header .main-nav li a, header .right-nav li a {
   line-height: 1;
 }
 
-}
+.hero-about {
+  width: 100%;
+  min-height: 100vh; 
+  background-image: url('../img/aboutus.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} 
+
 /* Beginning of Gallery Section styles */
 .galleryhero {
   display:grid;
