@@ -194,7 +194,7 @@ header .main-nav li a, header .right-nav li a {
 /* Base banner style (applies to all pages) */
 .page-banner {
   margin-top: 0;
-  width: 100%;
+  width: 800px;
   height: 600px;              /* fixed banner height */
   background-size: cover;
   background-position: center;
