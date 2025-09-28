@@ -195,7 +195,7 @@ header .main-nav li a, header .right-nav li a {
 .page-banner {
   margin-top: 70px;           /* sits below nav bar */
   width: 100%;
-  height: 600px;              /* fixed banner height */
+  height: 800px;              /* fixed banner height */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
