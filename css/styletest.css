@@ -157,7 +157,7 @@ header .main-nav li a, header .right-nav li a {
 }
 .hero-home {
   display: flex;
-  align-items: left;
+  align-items: center;
   justify-content: flex-start;
   background: url('../img/thespace.JPG') right center / 50% no-repeat;
   /*
@@ -167,7 +167,7 @@ header .main-nav li a, header .right-nav li a {
 .hero-home .hero-text {
       /* Add relative positioning for fine control */
   position: relative;
-  left: -220px;  /* negative = move left */
+  left: -400px;  /* negative = move left */
   top: -60px;   /* negative = move up */
   text-align: left;
   margin-left: 0;
