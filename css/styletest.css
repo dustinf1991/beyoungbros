@@ -95,7 +95,7 @@ header {
   left: 0;
   width: 100%;
   height: 70px;
-  z-index: 1000; /* stay above content */
+  z-index: 1000; /* stay above content ?*/
 }
 header .main-nav li, header .right-nav li {
     list-style-type: none;
@@ -161,7 +161,7 @@ header .main-nav li a, header .right-nav li a {
   justify-content: flex-start;
   background: url('../img/thespace.JPG') right center / 50% no-repeat;
   /*
-  background-image: url('../img/collagebanner.PNG');
+  background-image: url('../img/collagebanner.PNG');    for later use
 } */
 }
 .hero-home .hero-text {
@@ -220,7 +220,7 @@ header .main-nav li a, header .right-nav li a {
 }
 /* End of Gallery Section styles */
 
-/* Base banner style (applies to all pages) */
+/* Base banner style (applies to all pages, can change banner between pages later if desired */
 .page-banner {
   margin-top: 0;
   width: 100%;
@@ -228,12 +228,12 @@ header .main-nav li a, header .right-nav li a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('../img/dyebanner.PNG'); /* default image */
+  background-image: url('../img/dyebanner.PNG'); /* default image for all banners*/
 }
 .calendar {
   margin-top: 0px;   /* space between banner and calendar */
   display: flex;
-  justify-content: center; /* center the iframe */
+  justify-content: center; /* center the calendar in middle of page */
 }
 
 .calendar iframe {
