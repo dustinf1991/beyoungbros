@@ -159,8 +159,7 @@ header .main-nav li a, header .right-nav li a {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background: url('../img/thespace.JPG') right center / 50% no-repeat, 
-  #000; /* fallback background */
+  background: url('../img/thespace.JPG') right center / 50% no-repeat;
   /*
   background-image: url('../img/collagebanner.PNG');
 } */
