@@ -157,7 +157,7 @@ header .main-nav li a, header .right-nav li a {
 }
 .hero-home {
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: flex-start;
   background: url('../img/thespace.JPG') right center / 50% no-repeat;
   /*
