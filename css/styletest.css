@@ -214,8 +214,8 @@ header .main-nav li a, header .right-nav li a {
 }
 .gallery img{
   width:100%;
-  height:220px;               /* keep rows tidy */
-  object-fit:cover;           /* crop nicely */
+  height:220px;               /* alignment */
+  object-fit:cover;           /* cropping */
   border-radius:12px;
 }
 /* End of Gallery Section styles */
