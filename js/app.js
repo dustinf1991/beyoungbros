@@ -33,5 +33,19 @@ document.addEventListener('DOMContentLoaded', () => {
   gallery.addEventListener('click', (e) => {
     if (!isImg(e.target)) return;
     e.target.classList.toggle('zoom');
+
+    // Rainbow hover effect for all hero titles
+    const heroTitles = document.querySelectorAll('.hero-title');
+
+    heroTitles.forEach(title => {
+        title.addEventListener('mouseenter', () => {
+            title.classList.add('rainbow');   // add rainbow when hovered
+  });
+
+    title.addEventListener('mouseleave', () => {
+        title.classList.remove('rainbow'); // remove rainbow when not hovered
+  });
+});
+
   });
 });

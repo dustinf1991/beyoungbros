@@ -182,6 +182,35 @@ header .main-nav li a, header .right-nav li a {
   color: black;
   max-width: 470px;
 }
+/* ===== RAINBOW HOVER EFFECT FOR HERO TITLES ===== */
+.hero-title {
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.hero-title.rainbow {
+  background: linear-gradient(
+    90deg,
+    firebrick,
+    darkorange,
+    gold,
+    olivedrab,
+    lightseagreen,
+    cornflowerblue,
+    mediumorchid,
+    plum, 
+  );
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbowShift 3s linear infinite;
+}
+
+@keyframes rainbowShift {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+/* ===== END RAINBOW HOVER EFFECT FOR HERO TITLES ===== */
 
 .hero-about {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/aboutus.JPG');
