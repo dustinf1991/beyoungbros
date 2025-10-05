@@ -218,6 +218,18 @@ header .main-nav li a, header .right-nav li a {
   object-fit:cover;           /* cropping */
   border-radius:12px;
 }
+.gallery .galleryimage {
+  transition: transform .25s ease, filter .25s ease;
+  will-change: transform;
+  cursor: pointer;
+}
+
+.gallery .galleryimage.zoom {
+  transform: scale(1.2);
+  filter: brightness(1.05);
+  position: relative;
+  z-index: 2;
+}
 /* End of Gallery Section styles */
 
 /* Base banner style (applies to all pages, can change banner between pages later if desired */
