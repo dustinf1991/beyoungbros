@@ -225,7 +225,7 @@ header .main-nav li a, header .right-nav li a {
 }
 
 .gallery .galleryimage.zoom {
-  transform: scale(1.2);
+  transform: scale(1.5);
   filter: brightness(1.05);
   position: relative;
   z-index: 2;
