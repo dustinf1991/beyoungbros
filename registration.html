@@ -55,6 +55,76 @@
       </div>
     </div>
   </section> 
+  <!-- Registration Form -->
+<section class="section section-register">
+  <div class="container">
+    <div class="form-card" role="form" aria-labelledby="reg-title">
+      <h2 id="reg-title" class="form-title">Registration Form</h2>
+
+      <form id="registrationForm" novalidate>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" required>
+          </div>
+
+          <div class="form-field">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-field">
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" id="phone" name="phone" inputmode="tel" placeholder="555-123-4567">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="participant">Participant Name</label>
+            <input type="text" id="participant" name="participant" placeholder="Child or attendee name" required>
+          </div>
+
+          <div class="form-field">
+            <label for="interest">Class / Event</label>
+            <select id="interest" name="interest" required>
+              <option value="">-- Choose One --</option>
+              <option>Art Class (Ages 4–6)</option>
+              <option>Art Class (Ages 7–10)</option>
+              <option>Family Open Studio</option>
+              <option>Birthday Party Reservation</option>
+              <option>Special Event</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="notes">Notes (allergies, requests, etc.)</label>
+          <textarea id="notes" name="notes" rows="4" placeholder="Tell us anything helpful for this registration"></textarea>
+        </div>
+
+        <div class="form-consent">
+          <label class="checkbox">
+            <input type="checkbox" id="consent" required>
+            <span>I agree to be contacted about my registration.</span>
+          </label>
+        </div>
+
+        <button type="submit" class="btn-primary">Submit Registration</button>
+      </form>
+
+      <!-- Confirmation message-->
+      <div id="reg-confirm" class="alert alert-success hidden" role="status" aria-live="polite"></div>
+    </div>
+  </div>
+</section> 
 </body>
 
 </html>
