@@ -412,6 +412,39 @@ header .main-nav li a, header .right-nav li a {
 }
 /* ===== End Registration Form styles ===== */
 
+/* Nav layout */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav,
+.right-nav {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure the right nav actually shows */
+.right-nav a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 500;
+  
+  color: #111;           /* change until liked */
+}
+
+/* Optional: small icon spacing */
+.right-nav img {
+  height: 20px;
+  margin-right: 8px;
+}
+
+
    
 /* ==========================================================================
    Helper classes
