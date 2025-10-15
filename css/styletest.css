@@ -444,7 +444,33 @@ header {
   margin-right: 8px;
 }
 
+.site-footer{
+  margin-top: 3rem;
+  background: #0f172a;           /* dark slate */
+  color: #e5e7eb;                 /* light text */
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+.site-footer p{
+  margin: 0;
+}
+.site-footer .footer-inner{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  display: grid;
+  gap: .5rem;
+  text-align: center;
+  line-height: 1.5;
+  font-size: .95rem;
+}
 
+/* Thin gradient line above the footer */
+.site-footer::before{
+  content: "";
+  display: block;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.15), transparent);
+}
    
 /* ==========================================================================
    Helper classes
