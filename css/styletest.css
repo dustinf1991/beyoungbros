@@ -472,6 +472,24 @@ header {
   background: linear-gradient(90deg, transparent, rgba(255,255,255,.15), transparent);
 }
    
+.video-wrap {
+  max-width: 900px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.video-wrap video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0,0,0,.12);
+}
+
+.video-wrap figcaption {
+  font: 500 0.95rem/1.4 'Roboto', sans-serif;
+  color: #555;
+  margin-top: .75rem;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
